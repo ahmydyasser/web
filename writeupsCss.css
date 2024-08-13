@@ -1,0 +1,195 @@
+
+.card {
+    box-shadow: 0px 0px 10px rgb(0, 255, 0);
+
+    /* Softer green shadow */
+    background-color: #252525;
+    width: 22rem !important;
+    /* Increase the width of the card */
+}
+
+.card-title {
+    color: #07f007;
+}
+
+.card-text {
+    color: white;
+}
+
+.btn {
+    background-color: #464444;
+    box-shadow: 0px 0px 10px rgb(0, 255, 0);
+    /* Softer green shadow */
+    border-color: #07f007;
+    color: #07f007;
+}
+
+.btn:hover {
+    border-color: #07f007;
+    background-color: #07f007;
+    color: #000;
+}
+
+.navbar-brand {
+    color: #07f007;
+}
+.navbar-brand:hover {
+    color: #07f007;
+    
+}
+
+.nav-link {
+    margin-inline: 10px;
+    color: #02a902;
+    box-shadow: 10px 10px 10px rgba(9, 9, 9, 0.556);
+    /* Softer green shadow */
+
+}
+
+/* Ensure dropdown toggle remains styled when the dropdown menu is hovered */
+.navbar-nav .nav-item:hover .nav-link,
+.navbar-nav .nav-item .dropdown-menu:hover+.nav-link {
+    color: #07f007 !important;
+    font-size: x-large;
+    box-shadow: 10px 10px 10px rgb(9, 9, 9);
+}
+
+.form-control {
+    background-color: #000;
+    color: white;
+
+}
+
+/* 
+
+                .card-img-top{
+                    max-height: 250px;
+                } 
+
+*/
+.terminal-search {
+    background-color: #000;
+    border: 1px solid #3a3a3a;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px;
+    border-radius: 0;
+}
+
+.terminal-search::placeholder {
+    color: #00ff00;
+    opacity: 0.7;
+}
+
+.btn-terminal {
+    background-color: transparent;
+    border: 1px solid #3a3a3a;
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    padding: 10px 15px;
+    border-radius: 0;
+}
+
+.btn-terminal:hover {
+
+    background-color: #333;
+    border-color: #3a3a3a;
+    color: #00ff00;
+}
+
+.terminal-container {
+    background-color: #000 !important;
+    border-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border: 1px solid #3a3a3a;
+}
+
+.terminal-prompt {
+    color: #00ff00;
+    font-family: "Courier New", Courier, monospace;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.terminal-search:focus {
+    background-color: #000;
+    /* Keep the background color the same */
+    color: #00ff00;
+    /* Keep the text color the same */
+    border-color: #3a3a3a;
+    /* Keep the border color the same */
+    /* Remove the default focus outline */
+    box-shadow: 0px 0px 10px rgb(0, 255, 0);
+    margin-bottom: 5px;
+}
+
+.dropdown-menu {
+    background-color: #252525;
+}
+
+.dropdown-item {
+    color: #00ff00;
+}
+
+.dropdown-item:hover {
+    background-color: #00ff00;
+    color: #000;
+
+}
+
+.highlight {
+    color: #000;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.card-link:hover {
+    text-decoration: none;
+    /* Ensure no underline on hover */
+}
+
+.card-link {
+    text-decoration: none;
+    /* Remove underline */
+    color: inherit;
+    /* Inherit text color from the card */
+    display: block;
+    /* Make the link cover the entire card */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Slightly enlarge the card on hover */
+    box-shadow: 0px 0px 15px rgb(0, 255, 0);
+    /* Enhance shadow on hover */
+}
+
+
+
+body{
+    background-color: #1b1b1b ;
+    
+}
+
+.contact {
+    display: flex;
+    gap: 10px; /* Space between the icons */
+}
+
+.contact-icon {
+    width: 3rem; /* Adjust the size as needed */
+    height: 3rem; /* Ensures the image is a square */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the entire element */
+    align-items: center;
+    opacity: 1;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.345);
+
+}
+.contact-icon:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 15px rgb(0, 255, 0);
+}

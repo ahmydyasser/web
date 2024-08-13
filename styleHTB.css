@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1b1b; /* Dark gray background for less strain */
+    color: #f0f0f0; /* Softer white for text */
+    font-weight: 300;
+}
+
+.arroundSidebar {
+    position: relative;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #252525; /* Slightly lighter gray for the sidebar */
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3); /* Softer green shadow */
+}
+
+.profile-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    box-shadow: 0px 0px 10px rgba(9, 225, 9, 0.3); /* Softer green shadow */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #77ff77; /* Softer green border */
+}
+
+.badge {
+    background-color: #77ff77; /* Softer green for the badge */
+    color: #000;
+    border-radius: 50%;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: #a6ffa6; /* Even lighter green for nav items */
+}
+
+.main-content {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #252525; /* Matching sidebar background */
+    color: #f0f0f0;
+}
+
+.user-info {
+    display: flex;
+    gap: 20px;
+    color: #a6ffa6; /* Lighter green for user info */
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.stat-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e7d4f; /* Softer dark green */
+    box-shadow: 0px 0px 8px rgba(0, 255, 0, 0.3); /* Softer shadow */
+}
+
+.stat-box h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #000;
+}
+
+.stat-box p {
+    margin: 5px 0 0;
+    color: #f0f0f0; /* Softer white for text */
+}
+
+.offensive {
+    background-color: #77ff77; /* Softer green for offensive stat */
+}
+
+.defensive {
+    background-color: #2196f3; /* Softer blue for defensive stat */
+}
+
+.general {
+    background-color: #64d8cb; /* Softer cyan for general stat */
+}
+
+.current-path {
+    background-color: #2b2b2b; /* Darker gray for current path */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.current-path img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.path-details {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+h2{
+    color: rgb(4, 253, 4);
+}
+
+
+h3{
+    color: rgb(4, 253, 4);
+}
+h4{
+    color: rgb(4, 253, 4);
+}
+.continue-btn {
+    block-size: 100px;
+    height: 100px;
+    margin-left: 39px;
+    
+    box-shadow: 0px 0px 8px rgba(0, 246, 0, 0.963); /* Softer shadow */
+    width: 1900px;
+    background-color: transparent;
+    border: 2px solid #77ff77;
+    color: #77ff77;
+    padding: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.continue-btn:hover {
+    background-color: #77ff77;
+    color: #000;
+}
+
+.weekly-streak, .referral, .subscription {
+    background-color: #2b2b2b; /* Darker gray for boxes */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid #77ff77;
+    color: #77ff77;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #77ff77;
+    color: #000;
+}
+
+
+
+
+.box {
+    margin-top: 10px;
+    width: 250px;
+    height: 200px;
+    background-color: #1e3c258b;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    text-align: center;
+    line-height: 200px;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.box:hover .circles {
+    opacity: 1;
+}
+.box:hover{
+    color: #1e3c258b;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #333;
+}
